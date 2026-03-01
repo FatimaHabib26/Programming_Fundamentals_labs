@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+int main() {
+int n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12,n13,n14,n15;
+cout<<"enter number1: ";
+cin>> n1;
+cout<<"enter number2: ";
+cin>> n2;
+cout<<"enter number3: ";
+cin>> n3;
+cout<<"enter number4: ";
+cin>> n4;
+cout<<"enter number5: ";
+cin>> n5;
+cout<<"enter number6: ";
+cin>> n6;
+cout<<"enter number7: ";
+cin>> n7;
+cout<<"enter number8: ";
+cin>> n8;
+cout<<"enter number9: ";
+cin>> n9;
+cout<<"enter number10: ";
+cin>> n10;
+cout<<"enter number11: ";
+cin>> n11;
+cout<<"enter number12: ";
+cin>> n12;
+cout<<"enter number13: ";
+cin>> n13;
+cout<<"enter number14: ";
+cin>> n14;
+cout<<"enter number15: ";
+cin>> n15;
+int add_result;
+add_result=n1+n2+n3+n4+n5;
+int multiply_result;
+multiply_result=n6*n7*n8*n9*n10;
+int sub_result;
+sub_result=n11-n12-n13-n14-n15;
+int Result;
+Result=add_result+multiply_result;
+int final_result;
+final_result=Result-sub_result;
+cout<<"The final result is:"<<final_result;
+  }
