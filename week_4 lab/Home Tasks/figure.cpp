@@ -31,7 +31,7 @@ if(figure=="circle"){
 cout<<"Enter radius:";
 cin>>r;
 area=3.1416*r*r;
-cout<<"Area of area is:"<<area;}
+cout<<"Area of circle is:"<<area;}
 }
 
 
